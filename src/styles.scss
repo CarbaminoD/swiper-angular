@@ -1,1 +1,97 @@
 /* You can add global styles to this file, and also import other style files */
+.section-swiper > .container-fluid{
+    // padding: 0px 0px 0px 0px;
+}
+
+.section-swiper .swiper-part {
+    padding-block: 100px;
+    padding-right: unset;
+    padding-left: 40px;
+
+}
+
+.swiper-container {
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    transition-timing-function: linear;
+}
+
+.swiper-slide {
+    min-height: 30vh;
+    width: 300px;
+    max-width: 70vw;
+}
+
+.swiper-scrollbar {
+    position: relative !important;
+    background: #ccc;
+    opacity: 1;
+    height: 8px;
+  }
+  
+  .swiper-scrollbar-drag {
+    background: #333;
+  }
+
+// .flex-scope {
+//     display: flex;
+//     flex-direction: row;
+//     width: 100%;
+// }
+//     @media screen and (max-width: 1500px) {
+//         .flex-scope {
+//             flex-direction: column;
+//             justify-content: center;
+//             align-items: center;
+//         }
+//     }
+
+// .flex-thumbnails {
+//     flex-shrink: 0;
+//     width: 750px;
+//     height: 750px; 
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     padding: 80px 60px;
+// }
+
+// .flex-list {
+//     width: 100%;
+//     background: #F2F2F2;
+//     padding: 20px;
+//     padding: 72px 60px;
+// }
+
+.wrapper {
+    display: flex;
+}
+
+    @media screen and (max-width: 991px) {
+        .wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+.left-column {
+    width: 40em;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+.right-column {
+    padding: 10px;
+    background: orange;
+    flex: 1;
+    min-width: 0;
+}
+
+    @media screen and (max-width: 991px) {
+        .right-column {
+            width: 100%;
+        }
+    }
